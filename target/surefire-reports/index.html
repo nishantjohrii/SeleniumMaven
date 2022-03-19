@@ -180,8 +180,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;Param2&quot; value=&quot;Abcd@12345&quot;/&gt;
     &lt;parameter name=&quot;Param1&quot; value=&quot;Abcd@12345&quot;/&gt;
     &lt;classes&gt;
@@ -229,19 +229,19 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'ExternalDataTest')
 data.setCell(0, 2, 'testcases.LoginTest')
-data.setCell(0, 3, 6841);
+data.setCell(0, 3, 6468);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'LoginFailureTest')
+data.setCell(1, 1, 'LoginSuccessTest')
 data.setCell(1, 2, 'testcases.LoginTest')
-data.setCell(1, 3, 6418);
+data.setCell(1, 3, 6173);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'LoginSuccessTest')
+data.setCell(2, 1, 'LoginFailureTest')
 data.setCell(2, 2, 'testcases.LoginTest')
-data.setCell(2, 3, 5405);
+data.setCell(2, 3, 6071);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'ParameterizedTest')
 data.setCell(3, 2, 'testcases.LoginTest')
-data.setCell(3, 3, 4915);
+data.setCell(3, 3, 4885);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -279,55 +279,55 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">SetUp(public void testcases.LoginTest.ExternalDataTest())</span>
-                <span class="method-start">629 ms</span>
+                <span class="method-start">539 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ExternalDataTest</span>
-                <span class="method-start">4575 ms</span>
+                <span class="method-start">5669 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">11422 ms</span>
+                <span class="method-start">12139 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">SetUp(public void testcases.LoginTest.LoginFailureTest())</span>
-                <span class="method-start">12114 ms</span>
+                <span class="method-start">12827 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginFailureTest</span>
-                <span class="method-start">15676 ms</span>
+                <span class="method-start">16694 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">22097 ms</span>
+                <span class="method-start">22766 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">SetUp(public void testcases.LoginTest.LoginSuccessTest())</span>
-                <span class="method-start">22762 ms</span>
+                <span class="method-start">23456 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginSuccessTest</span>
-                <span class="method-start">26142 ms</span>
+                <span class="method-start">26648 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">31551 ms</span>
+                <span class="method-start">32822 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">SetUp(public void testcases.LoginTest.ParameterizedTest(java.lang.String,java.lang.String))</span>
-                <span class="method-start">32256 ms</span>
+                <span class="method-start">33481 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ParameterizedTest(Abcd@12345, Abcd@12345)</span>
-                <span class="method-start">35411 ms</span>
+                <span class="method-start">36522 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">40330 ms</span>
+                <span class="method-start">41407 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">DataTearDown</span>
-                <span class="method-start">40971 ms</span>
+                <span class="method-start">42076 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
